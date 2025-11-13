@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ApiCalling from "../components/ApiCalling";
+import ApiCalling from "../components/Apicalling";
 
 const Home = () => {
     const [memes, setMemes] = useState([]);

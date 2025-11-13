@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const ApiCalling = ({ API, onData }) => {
+const Apicalling = ({ API, onData }) => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
 
@@ -22,4 +22,4 @@ const ApiCalling = ({ API, onData }) => {
   return null; 
 };
 
-export default ApiCalling;
+export default Apicalling;
