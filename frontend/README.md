@@ -1,16 +1,27 @@
-# React + Vite
+Meme Template Viewer Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Problem Statment Given By Samarath Bhaiya:
 
-Currently, two official plugins are available:
+Is problem me hum ko memes show krna tha bhaiya ki api se so we display all the meme in front or landing page or ek search bar bhi banana tha jis pe hum search kr sake meme ke names.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+How I Started:
+1. first maine React+vite+tailwind install kiya ek project directory mai
+2. After that i have install react-router-dom and axios for routing and api working
+3. then maine vs code pr project(workspace) open kiya uske baad maine bhaiye ne jaise bataya tha us hissab se components and pages folder bana diya and uske andar file bana di
+4. Component folder ek ander maine Api calling file(jsx) bana diya jha pr api ka data call hoo
+5. or Page folder ke ander maine home or landing page ka code likh diya.
+6. Then maine Api calling wale pe do state banaya error or data for storing error or api data
+or phir axios.get kr ke Api se data fetch kiya as this task can take time so maine await or async use kr liya
+7. or api ka data maine home page se jo props ke through variable aa rha tha uspe set kr diya taki mai landing page pe display kr du.
+8. Hnn ek important chiz i use useEffect as i call Api or bhaiya ne bola tha jsb react pe re- render ho tab useEffect use krna 
+9. Home page pe maine ek filteredMemes function banaya kyu ki search pe kab or set kr de searched meeme
+10. ispe Home wale Component pr i call all the Api then display the result in a card taken from tailwind css
+11. or jab tak meme nhi aati hai api se tab tak no meme found show karega 
+12. that'a all for my side to explain you the code i you cannot understand the code working you can call me 
 
-## React Compiler
+How it Works
+just go to https://memegenerator-chi.vercel.app/ and you can see the deployed website 
+and if you want to run locally then first npm i then npm run dev
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Developer
+Siddharth
